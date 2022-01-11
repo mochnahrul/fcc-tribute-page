@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  color: rgb(51, 51, 51);
+  background-color: rgb(51, 51, 51);
+}
+
+main {
+  background-color: rgb(238, 238 , 238);
+  padding: 2rem;
+}
+
+/* Header Section */
+
+header {
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+/* Figure Section */
+
+figure {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  filter: grayscale(100%);
+}
+
+figcaption {
+  padding-top: 1rem;
+}
+
+/* Tribute Info Section */
+
+section {
+  margin: auto;
+}
+
+section p {
+  text-align: start;
+  line-height: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(51, 51, 51, 0.75);
+  transition: all 0.2s ease-in;
+}
+
+a:hover {
+  color: rgb(51, 51, 51);
+}
+
+/* Responsive Breakpoint */
+
+@media screen and (min-width: 414px) {
+  main {
+    margin: 2rem;
+    padding: 5rem;
+    border-radius: 2rem;
+  }
+}
